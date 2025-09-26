@@ -250,9 +250,10 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
+  	color: white;
     cursor: pointer;
-    background: #357;
+    background: #A4C2F499;
+    opacity: ;
     padding: 15px 40px;
     transition: all 0.3s ease;
 }
@@ -261,8 +262,9 @@ blockquote {
 .tm-down-arrow:focus {
   color: #FFF;
   background: var(--azul);
+  opacity: 100%;
   padding: 20px 50px;
-}
+  }
 
 /* Introduction */
 
