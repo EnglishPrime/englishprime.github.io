@@ -211,22 +211,22 @@
     </div>
     <h1>Clases de Inglés Personalizadas</h1>
     <p>Online y presencial · adaptadas a tu ritmo</p>
-    <a href="#contacto" class="btn">Reserva tu clase de prueba</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnznkVYL1uFaHaeQHmoy3f8UNZzfhbOdRP92PaMGUfUIBHGA/viewform?usp=header" class="btn">Reserva tu clase de prueba</a>
   </header>
 
   <section id="curso">
     <h2>¿Qué incluye el curso?</h2>
     <ul class="lasventajas">
       <li class="ventaja" style="background:var(--azul); ">
-        <span class="v1">Horarios flexibles</span>
+        <span class="v1"><center>Horarios flexibles</center></span>
         <span class="v2">Encontraremos juntos el mejor momento de la semana que te funcione </span>
       </li>
        <li class="ventaja" style="background:var(--azul); ">
-        <span class="v1">Online y presencial</span>
+        <span class="v1"><center>Online y presencial</center></span>
         <span class="v2">Las clases pueden ser presenciales, en Yaracuy, como Online atraves de Whatsapp, Meet o Discord</span>
       </li>
        <li class="ventaja" style="background:var(--azul); ">
-        <span class="v1">Atención personalizada</span>
+        <span class="v1"><center>Atención personalizada</center></span>
         <span class="v2">Consulta en cualquier momento y tu duda sera atendida lo mas pronto, posible. Mas que un profesor, soy tu EnglishBro</span>
       </li>
 
@@ -287,14 +287,25 @@
               .ventaja:hover > .v1{display:none;}
               .ventaja:hover > .v2{display:flex;}
 
-              @media (max-width: 1100px) {
-  .v1{
-    font-size: 14px;
-    text-shadow:2px 1px 3px black;
-}
-.v2{
-    font-size: 10px;
-}
+              @media (max-width: 1100px)
+               {
+                .v1{
+                  font-size: 14px;
+                  text-shadow:2px 1px 3px black;
+                }
+                .v2{
+                    font-size: 10px;
+                }
+
+               @media (max-width: 768px) 
+              
+               {
+                .v1{
+                  font-size: 12px;
+                  text-shadow:1px 0.5px 1.5px black;
+                }
+                .ventaja:hover > .v1{display:flex;}
+                .ventaja:hover > .v2{display:none;}
 
   </style>
 
