@@ -722,3 +722,27 @@ p {
     margin: 0;
   }
 }
+
+.ep-social { text-align: center; }
+.ep-social i {
+  border: 1px solid var(--azul);
+  border-radius: 50%;
+  padding-top: 7px;
+  
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  transition: background-color 0.3s;
+}
+.ep-social a { color: var(--azul); }
+.ep-social a:hover i {
+  background-color:var(--azul);
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  .ep-social {
+    margin-top: px;
+    text-align: left;
+  }
+}
